@@ -1,0 +1,5 @@
+1. install packages
+2. create folders (APIRequest, Components, Helper, Pages, Redux(state-slice,store))
+3. create files
+4. create routes in App.js(react-router-dom)
+5.
