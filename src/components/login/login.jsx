@@ -1,5 +1,5 @@
 import {Fragment, useRef} from "react";
-import {ErrorToast, IsEmail, IsEmpty} from "../../helper/FormHelper";
+import {ErrorToast, IsEmail, IsEmpty} from "../../helper/formHelper";
 import {LoginRequest} from "../../APIRequest/APIRequest.js";
 import {Link} from "react-router-dom";
 const Login = () => {

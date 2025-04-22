@@ -1,7 +1,7 @@
 import {useEffect, useRef, useState} from 'react';
 import {GetProfileDetails, ProfileUpdateRequest} from "../../APIRequest/APIRequest";
 import {useSelector} from "react-redux";
-import {ErrorToast, IsEmail, IsEmpty, IsMobile} from "../../helper/FormHelper";
+import {ErrorToast, IsEmail, IsEmpty, IsMobile} from "../../helper/formHelper";
 import {useNavigate} from "react-router-dom";
 
 const Profile = () => {
