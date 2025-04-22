@@ -32,15 +32,11 @@ const MasterLayout = (props) => {
     let photoE = () => {
         const userPhoto = getUserDetails()['photo'];
         if (userPhoto === "") {
-//            console.log(userPhoto,"nai")
-            return alt;  // Path to your default image
+            return alt;
         } else {
             return userPhoto;
         }
     }
-
-    //console.log(photoE())
-        //alt || getUserDetails()['photo'];
 
     return (
         <Fragment>

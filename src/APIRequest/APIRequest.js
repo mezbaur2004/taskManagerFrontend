@@ -7,7 +7,7 @@ import {SetCancelledTask, SetCompletedTask, SetNewTask, SetProgressTask} from ".
 import {SetSummary} from "../redux/state-slice/summarySlice.js";
 import {SetProfile} from "../redux/state-slice/profileSlice.js";
 
-const BaseURL="http://localhost:3030/api";
+const BaseURL=import.meta.env.VITE_API_BASE_URL ;;
 
 const AxiosHeader={headers:{"token":getToken()}}
 
