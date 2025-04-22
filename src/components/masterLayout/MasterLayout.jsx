@@ -6,7 +6,7 @@ import { BsHourglass, BsListNested } from "react-icons/bs";
 import logo from "../../assets/images/logo.svg";
 import { MdOutlineCancelPresentation } from "react-icons/md";
 import { RiDashboardLine } from "react-icons/ri";
-import { getUserDetails, removeSessions } from "../../helper/SessionHelper";
+import { getUserDetails, removeSessions } from "../../helper/sessionHelper";
 import alt from "../../assets/images/image.png";
 
 const MasterLayout = (props) => {
